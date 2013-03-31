@@ -23,11 +23,18 @@ body {
     text-align: right;
 }
 #resume {
+    position: relative;
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
     width: 800px;
+}
+
+#download_link {
+    position: absolute;
+    top: 45px;
+    right: 25px;
 }
 #resume h1, #resume h2, #resume h3, #resume h4, #resume h5, #resume h6 {
     border: 0 none;
